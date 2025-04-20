@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player com Efeito Glassmorphism</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="music-player" id="musicPlayer">
+        <div class="cover-art">
+            <img src="https://i.imgur.com/YhJ8fsj.png" alt="Capa do Álbum">
+        </div>
+        <div class="info">
+            <h3>(MUSIC TITLE)</h3>
+            <p>(ARTIST NAME)</p>
+        </div>
+    </div>
+
+    <div class="modal" id="videoModal">
+        <div class="modal-content">
+            <button class="close-btn" id="closeModal">Exit</button>
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/P5ZJui3aPoQ" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
